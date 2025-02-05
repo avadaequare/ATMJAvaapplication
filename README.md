@@ -228,4 +228,7 @@ mvn spring-boot:run
 
 nohup mvn spring-boot:run > app.log 2>&1 &(to run the application in backgroud even if we exit terminal)
 
-The web application will start on http://localhost:8080.
+The web application will start on http://localhost:8080 
+
+<img width="947" alt="image" src="https://github.com/user-attachments/assets/15107c7c-0582-45e9-872a-0afadac345bc" />
+
