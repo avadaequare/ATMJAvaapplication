@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM Web Application</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .container { width: 50%; margin: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ATM Web Application</h1>
+        <h2>Current Balance: $<span th:text="${balance}"></span></h2>
+
+        <h3>Withdraw Money</h3>
+        <form action="/withdraw" method="post">
+            <input type="number" name="amount" placeholder="Enter amount" required>
+            <button type="submit">Withdraw</button>
+        </form>
+
+        <h3>Deposit Money</h3>
+        <form action="/deposit" method="post">
+            <input type="number" name="amount" placeholder="Enter amount" required>
+            <button type="submit">Deposit</button>
+        </form>
+
+        <p style="color: green;" th:text="${message}"></p>
+    </div>
+</body>
+</html>
+
