@@ -3,6 +3,8 @@ ATM Web aplication deployment
 
 make sure you install java jdk>17 ( apt install openjdk-17-jdk-headless) and maven installed (apt install maven -y)
 
+https://github.com/kishanrajput23/Java-Projects-Collections.git Atm interface
+
 📌 Steps to Convert the ATM App into a Web Application
 1️ Create a Spring Boot Project
 Since we need a web interface, we'll use Spring Boot with Spring MVC.
