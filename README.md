@@ -130,6 +130,8 @@ Create a file ATMWebAppApplication.java inside src/main/java/com/example/:
 
 package com.example;
 
+package com.example;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -139,6 +141,7 @@ public class ATMWebAppApplication {
         SpringApplication.run(ATMWebAppApplication.class, args);
     }
 }
+
 
 
 4️ Create an ATM Controller (ATMController.java)
